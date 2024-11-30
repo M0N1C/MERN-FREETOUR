@@ -1,0 +1,39 @@
+/* Import base styles from Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional custom styles (optional) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Elegante y limpio como Apple */
+  background-color: #f8f8f7; /* Fondo suave y limpio */
+  color: #333; /* Texto oscuro para un buen contraste */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none; /* Evita los subrayados en los enlaces */
+  color: inherit; /* Hereda color de texto */
+}
+
+/* Optional: smooth transition for hover effects */
+*, *:before, *:after {
+  transition: all 0.3s ease;
+}
+
+/* Utility classes for spacing and responsiveness */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
