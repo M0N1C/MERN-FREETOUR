@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-
+//all commit
 function BookingForm({ tourTitle, availableDates, onBook }) {
   const [selectedTour, setSelectedTour] = useState("");
   const [numberOfPeople, setNumberOfPeople] = useState(1);
